@@ -4,7 +4,7 @@ on:
       - master
   push:
     branches:
-      - master
+      - master 
 
 jobs:
   build_test_job:
