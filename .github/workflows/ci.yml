@@ -20,8 +20,11 @@ jobs:
 
     - name: 'Validate build'
       run: |
+        pwd
         npm install
         npm run build
+        ls
+        pwd
         
     - name: 'Run L0 tests'
       run: |
